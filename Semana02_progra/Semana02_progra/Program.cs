@@ -10,6 +10,11 @@ namespace Semana02_progra
     {
         static void Main(string[] args)
         {
+            Shape s = new Circle(10);
+
+            Console.WriteLine($"El área del {s.GetName()} es: {s.CalculateArea()}");
+            Console.ReadLine();
         }
     }
+}
 }
