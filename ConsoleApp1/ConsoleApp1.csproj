@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{6A4BBADB-18EC-4E14-96EE-FCA8D36BFB51}</ProjectGuid>
+    <ProjectGuid>{2946E93C-63E8-4D08-A18D-5EF78ECD7F85}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Semana02_progra</RootNamespace>
-    <AssemblyName>Semana02_progra</AssemblyName>
+    <RootNamespace>ConsoleApp1</RootNamespace>
+    <AssemblyName>ConsoleApp1</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>

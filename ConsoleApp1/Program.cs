@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Semana02_progra
+namespace ConsoleApp1
 {
     class Program
     {
@@ -16,5 +16,4 @@ namespace Semana02_progra
             Console.ReadLine();
         }
     }
-}
 }
