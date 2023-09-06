@@ -12,11 +12,11 @@ namespace ConsoleApp1
 
         public Circle(float radius)
         {
-            this.name = "Circle";
+            this.name = "Circulo";
             this.radius = radius;
         }
 
-        public override float CalculateArea()
+        public override float GetArea()
         {
             return radius * radius * 3.14f;
         }

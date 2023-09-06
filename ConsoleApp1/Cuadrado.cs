@@ -12,6 +12,7 @@ namespace ConsoleApp1
 
 		public Cuadrado(float side)
 		{
+			this.name = "Cuadrado";
 			this.side = side;
 		}
 

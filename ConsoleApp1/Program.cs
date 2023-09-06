@@ -32,6 +32,27 @@ namespace ConsoleApp1
                     break;
 
                 case "2":
+                    float CuadradoSide;
+                    Console.WriteLine("Introducir un lado del rectángulo: ");
+                    CuadradoSide = float.Parse(Console.ReadLine());
+                    s = new Cuadrado(CuadradoSide);
+                    break;
+
+                case "3":
+                    float CircleRadius;
+                    Console.WriteLine("Introducir el radio del circulo: ");
+                    CircleRadius = float.Parse(Console.ReadLine());
+                    s = new Circle(CircleRadius);
+                    break;
+
+                case "4":
+                    float TrianguloBase;
+                    float TrianguloHeight;
+                    Console.WriteLine("Introducir la base del triangulo: ");
+                    TrianguloBase = float.Parse(Console.ReadLine());
+                    Console.WriteLine("Introducir la altura del triangulo: ");
+                    TrianguloHeight = float.Parse(Console.ReadLine());
+                    s = new Rectangulo(TrianguloBase, TrianguloHeight);
                     break;
             }
 

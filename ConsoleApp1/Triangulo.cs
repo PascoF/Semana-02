@@ -6,21 +6,22 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp1
 {
-    class Rectangulo : Shape
-	{
-		private float width;
-		private float height;
+    class Triangulo : Shape
+    {
+        private float Base;
+        private float height;
 
-		public Rectangulo(float width, float height)
+		public Triangulo(float Base, float height)
 		{
-			this.name = "Rectangulo";
-			this.width = width;
+			this.name = "Triangulo";
+			this.Base = Base;
 			this.height = height;
 		}
 
 		public override float GetArea()
 		{
-			return width * height;
+			return (Base * height)/2;
 		}
+
 	}
 }

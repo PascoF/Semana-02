@@ -8,6 +8,15 @@ namespace ConsoleApp1
 {
 	class Shape
 	{
+
+		protected string name;
+
+		public string GetName()
+		{
+			return name;
+		}
+
+
 		public virtual float GetArea()
 		{
 			return 0;
