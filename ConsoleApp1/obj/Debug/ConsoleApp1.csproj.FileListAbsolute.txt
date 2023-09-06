@@ -1,0 +1,2 @@
+D:\Trabajos\T_Programación\5toCiclo\Semana-02\ConsoleApp1\obj\Debug\ConsoleApp1.csproj.AssemblyReference.cache
+D:\Trabajos\T_Programación\5toCiclo\Semana-02\ConsoleApp1\obj\Debug\ConsoleApp1.csproj.CoreCompileInputs.cache
