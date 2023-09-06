@@ -15,9 +15,9 @@ namespace ConsoleApp1
 
             Console.WriteLine("Elegir la figura a operar: ");
             Console.WriteLine("1. Rectángulo ");
-            Console.WriteLine("2. Cuadrado");
-            Console.WriteLine("3. Circulo");
-            Console.WriteLine("4. Triangulo");
+            Console.WriteLine("2. Cuadrado ");
+            Console.WriteLine("3. Circulo ");
+            Console.WriteLine("4. Triangulo ");
             option = Console.ReadLine();
             switch (option)
             {
